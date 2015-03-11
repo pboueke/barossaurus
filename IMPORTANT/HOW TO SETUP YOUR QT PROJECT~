@@ -1,0 +1,13 @@
+Use the .pro file as reference to configure your project in QTCreator.
+Place the .qrc, provided here, in your parent directory.
+
+The structure of your folders must be:
+
+\parent\
+	Here you have the files .pro, .pro.user and .qrc
+--------\brontoussaurus (folder you cloned from git)
+		README
+		LICENSE
+----------------\sources
+			Here you have all the code, in your .pro file you must point QT to this folder
+----------------\Documentation
